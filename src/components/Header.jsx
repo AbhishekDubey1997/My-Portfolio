@@ -1,7 +1,7 @@
 import React , {useState} from 'react'
 import { IoMenuSharp } from "react-icons/io5";
 import { IoMdClose } from "react-icons/io";
-import bg5 from "../Assets/img/bg5.jpg"
+// import bg5 from "../Assets/img/bg5.jpg"
 import { Link } from 'react-router-dom';
 
 export default function Header() {
@@ -9,7 +9,7 @@ export default function Header() {
     const[toggle,setToggle] = useState(0);
 
   return (
-    <div className='bg-no-repeat bg-cover bg-center p-4 md:px-[60px] border-b-2 border-sky-800 w-full h-[70px] fixed text-sky-900' style={{backgroundImage: `url(${bg5})`}}>
+    <div className='bg-no-repeat bg-cover bg-center p-4 md:px-[60px] border-b-2 border-b-sky-800 w-full fixed text-sky-900 bg-white'>
         <div className=' flex justify-between items-center   '>
             <div className='text-2xl font-bold'>
                 <h1>🅐🅑🅗🅘 Portfolio</h1>
@@ -59,3 +59,6 @@ export default function Header() {
     </div>
   )
 }
+
+
+// style={{backgroundImage: `url(${bg5})`}}
