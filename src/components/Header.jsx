@@ -9,7 +9,7 @@ export default function Header() {
     const[toggle,setToggle] = useState(0);
 
   return (
-    <div className='bg-no-repeat bg-cover bg-center p-4 md:px-[60px] border-b-2 border-b-sky-800 w-full fixed text-sky-900 bg-white'>
+    <div className=' p-4 md:px-[60px] border-b-2 border-b-sky-800 w-full fixed text-sky-900 bg-white'>
         <div className=' flex justify-between items-center   '>
             <div className='text-2xl font-bold'>
                 <h1>🅐🅑🅗🅘 Portfolio</h1>
