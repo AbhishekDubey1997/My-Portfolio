@@ -1,7 +1,7 @@
 import React , {useState} from 'react'
 import { IoMenuSharp } from "react-icons/io5";
 import { IoMdClose } from "react-icons/io";
-// import bg5 from "../Assets/img/bg5.jpg"
+import bg5 from "../Assets/img/bg5.jpg"
 import { Link } from 'react-router-dom';
 
 export default function Header() {
@@ -9,7 +9,7 @@ export default function Header() {
     const[toggle,setToggle] = useState(0);
 
   return (
-    <div className=' p-4 md:px-[60px] border-b-2 border-b-sky-800 w-full fixed text-sky-900 bg-white'>
+    <div className=' p-4 md:px-[60px] border-b-2 border-sky-800 w-full fixed text-sky-900 bg-cover 'style={{backgroundImage: `url(${bg5})`}}>
         <div className=' flex justify-between items-center   '>
             <div className='text-2xl font-bold'>
                 <h1>🅐🅑🅗🅘 Portfolio</h1>
@@ -38,7 +38,7 @@ export default function Header() {
             {/* Responsive menu */}
 
             
-                <ul className={`bg-no-repeat bg-cover duration-200 md:hidden border border-white fixed w-full h-screen left-0 flex  items-center justify-start pt-[90px] flex-col gap-6 font-medium text-2xl bg-sky-800 text-white   
+                <ul className={`duration-200 md:hidden  fixed w-full h-screen left-0 flex  items-center justify-start pt-[90px] flex-col gap-6 font-medium text-2xl bg-sky-800 text-white   
                  ${toggle ? 'top-[64px]' : 'top-[-100%]'} `} >
 
                     <li><Link to="/"  onClick={()=>setToggle(!toggle)} >Home</Link></li>
@@ -61,4 +61,3 @@ export default function Header() {
 }
 
 
-// style={{backgroundImage: `url(${bg5})`}}

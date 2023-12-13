@@ -38,7 +38,7 @@ import { Link } from 'react-router-dom';
 export default function Home() {
   return (
     <>
-    <div className='bg-sky-800 text-white  w-full  md:flex md:text-left text-center gap-28 md:pt-28 pt-24 md:px-[200px] px-[20px] pb-[80px]'  >
+    <div className='bg-sky-800 text-white  w-full  md:flex md:text-left text-center gap-28 pt-28  md:px-[200px] px-[20px] pb-[80px]'  >
      
         <div className='md:w-[500px] md:pt-[60px]'>
 
