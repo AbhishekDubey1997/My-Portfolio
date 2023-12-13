@@ -9,7 +9,7 @@ import bg5 from "../Assets/img/bg5.jpg"
 
 export default function About() {
   return (
-    <div className="bg-no-repeat bg-cover  min-h-screen w-full md:mb-[-80px] pt-[50px] " style={{backgroundImage: `url(${bg5})`}}>
+    <div className="bg-no-repeat bg-cover  min-h-screen w-full mb-[-80px] pt-[50px] " style={{backgroundImage: `url(${bg5})`}}>
       <div className="text-center ">
         <h1 className="text-3xl font-bold pt-[35px] text-sky-900 ">About Me</h1>
         <h1 className="p-3">Introduction</h1>

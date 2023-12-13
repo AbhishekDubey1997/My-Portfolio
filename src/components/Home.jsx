@@ -30,6 +30,7 @@ import { SiGmail } from "react-icons/si";
 import { FaFacebookF } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 import { IoShareSocialOutline } from "react-icons/io5";
+import { Link } from 'react-router-dom';
 
 
 
@@ -49,7 +50,7 @@ export default function Home() {
 
             <p className='py-5'>With a passion for Coding and problem-solving , I have honed my skills in Frontend Development to create innovative and user-friendly web applications.</p>
 
-            <button class="bg-transparent hover:bg-white text-white font-semibold hover:text-black py-2 px-6 border border-white hover:border-black rounded duration-500"><a href="/Contact">Contact</a></button>
+            <button class="bg-transparent hover:bg-white text-white font-semibold hover:text-black py-2 px-6 border border-white hover:border-black rounded duration-500"><Link to="/Contact">Contact</Link></button>
 
         </div>
         
@@ -351,7 +352,7 @@ export default function Home() {
               <div className="flex gap-3 text-[22px]">
                 <div className=" p-2 rounded w-8">
                   <a
-                    href="https://github.com/AbhishekDubey1997/My-Portfolio"
+                    href="https://github.com/AbhishekDubey1997/my-portfolio"
                     target="blank"
                   >
                     {" "}
@@ -362,7 +363,7 @@ export default function Home() {
                 <div className="p-2 rounded w-8">
                   {" "}
                   <a
-                    href="https://my-portfolio-84i8.onrender.com"
+                    href="https://my-portfolio-qozf.onrender.com"
                     target="blank"
                   >
                     {" "}

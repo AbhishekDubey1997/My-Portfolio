@@ -108,7 +108,7 @@ export default function Projects() {
               <div className="flex gap-3 text-[22px]">
                 <div className=" p-2 rounded w-8">
                   <a
-                    href="https://github.com/AbhishekDubey1997/My-Portfolio"
+                    href="https://github.com/AbhishekDubey1997/my-portfolio"
                     target="blank"
                   >
                     {" "}
@@ -119,7 +119,7 @@ export default function Projects() {
                 <div className="p-2 rounded w-8">
                   {" "}
                   <a
-                    href="https://my-portfolio-84i8.onrender.com"
+                    href="https://my-portfolio-qozf.onrender.com"
                     target="blank"
                   >
                     {" "}
