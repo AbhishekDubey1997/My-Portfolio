@@ -19,6 +19,8 @@ import { SiTailwindcss } from "react-icons/si";
 import { IoLogoFirebase } from "react-icons/io5";
 import { FaGithub } from "react-icons/fa";
 import { FaBootstrap } from "react-icons/fa";
+import { SiMongodb } from "react-icons/si";
+import { FaNode } from "react-icons/fa";
 import pro1 from "../Assets/img/pro1.png";
 import ExpenseTApp from "../Assets/img/ExpenseTApp.png";
 import ToDoList from "../Assets/img/ToDoList.png";
@@ -191,7 +193,7 @@ export default function Home() {
         <h1 className="text-3xl font-bold my-5 text-sky-900 ">Skills</h1>
         <h1 className='font-semibold'>My Skills</h1>
       </div>
-      <div className='md:max-w-[850px] max-w-[350px] border border-sky-900 m-auto  my-14  p-8 flex flex-wrap justify-between rounded-xl '>
+      <div className='md:max-w-[850px] max-w-[350px] border border-sky-900 m-auto  my-14  p-8 flex flex-wrap justify-center rounded-xl '>
         <div className='flex items-center md:w-[160px] w-[120px] flex-col    bg-slate-200 py-[10px] px-[20px] m-2 border font-bold border-black rounded hover:text-white  hover:bg-sky-950  duration-500   cursor-pointer gap-4'>
           <div className='text-5xl'>
           <TiHtml5 />
@@ -204,6 +206,13 @@ export default function Home() {
           <IoLogoCss3  />
           </div>
           <h1>CSS</h1>
+        </div>
+
+        <div className='flex items-center   bg-slate-200 py-[10px] px-[20px] m-2 border font-bold border-black rounded  hover:bg-sky-950  duration-500  hover:text-white cursor-pointer gap-4 md:w-[160px] w-[120px] flex-col text-center'>
+          <div className='text-5xl'>
+          <SiTailwindcss  />
+          </div>
+          <h1>Tailwind Css</h1>
         </div>
 
         <div className='flex items-center   bg-slate-200 py-[10px] px-[20px] m-2 border font-bold border-black rounded  hover:bg-sky-950  duration-500  hover:text-white cursor-pointer gap-4 md:w-[160px] w-[120px] flex-col '>
@@ -222,9 +231,16 @@ export default function Home() {
 
         <div className='flex items-center   bg-slate-200 py-[10px] px-[20px] m-2 border font-bold border-black rounded  hover:bg-sky-950  duration-500  hover:text-white cursor-pointer gap-4 md:w-[160px] w-[120px] flex-col text-center'>
           <div className='text-5xl'>
-          <SiTailwindcss  />
+          <FaNode />
           </div>
-          <h1>Tailwind Css</h1>
+          <h1>NodeJS</h1>
+        </div>
+
+        <div className='flex items-center   bg-slate-200 py-[10px] px-[20px] m-2 border font-bold border-black rounded  hover:bg-sky-950  duration-500  hover:text-white cursor-pointer gap-4 md:w-[160px] w-[120px] flex-col text-center'>
+          <div className='text-5xl'>
+          <SiMongodb />
+          </div>
+          <h1>MongoDB</h1>
         </div>
 
         <div className='flex items-center   bg-slate-200 py-[10px] px-[20px] m-2 border font-bold border-black rounded  hover:bg-sky-950  duration-500  hover:text-white cursor-pointer gap-4 md:w-[160px] w-[120px] flex-col '>
@@ -504,11 +520,11 @@ export default function Home() {
             <img className='w-[150px]' src={ZapOneIcon} alt="" />
             <h1 className='font-semibold text-[19px] underline text-blue'><a href="https://zapone.io/" target='blank'>ZapOne Solution Pvt.ltd</a></h1>
          </div>
-         <h1 className='text-[15px] font-normal ml-2 my-6 '><span className='font-bold text-[19px]'>InterShip</span> (Oct23-Jan24)</h1>
+         <h1 className='text-[15px] font-normal ml-2 my-6 '><span className='font-bold text-[19px]'>InterShip</span></h1>
 
          <h1 className='mt-[17px] '>• <span className='font-semibold'>ZapOne</span> - A Hub of smart tech solutions to enable better outcomes.Its range of service offerings is built focusing on the long-term digital transformation of business.</h1>
          
-         <h1 className='text-[17px] mt-[17px] font-semibold '>• Worked as a Front-End Developer <span className='font-normal'>(HTML , CSS , Tailwind Css , Javascript , ReactJs)</span></h1>
+         <h1 className='text-[17px] mt-[17px] font-semibold '>• From (May-2023) I continue our work as a Front-End Developer in this Organization. <span className='font-normal'>(HTML , CSS , Tailwind Css , Javascript , ReactJs)</span></h1>
          
       </div>
 
@@ -560,7 +576,8 @@ export default function Home() {
               Email ------
             </h1>
             <div className="m-auto   font-semibold text-[18px] text-white    py-5 px-6  ">
-              <a href="https://mail.google.com/mail/u/1/?ogbl#inbox?compose=new" target="blank">akdubey.dtg@gmail.com</a>
+              <a href="mailto:akdubey.dtg@gmail.com" 
+              target="blank">akdubey.dtg@gmail.com</a>
             </div>
           </div>
         </div>

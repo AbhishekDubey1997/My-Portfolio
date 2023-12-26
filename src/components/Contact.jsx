@@ -60,7 +60,7 @@ export default function Contact() {
             </h1>
             <div className="m-auto   font-semibold text-[18px] text-white    py-5 px-6  ">
               <a
-                href="https://mail.google.com/mail/u/1/?ogbl#inbox?compose=new"
+                href="mailto:akdubey.dtg@gmail.com"
                 target="blank"
               >
                 akdubey.dtg@gmail.com

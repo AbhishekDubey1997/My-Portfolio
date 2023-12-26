@@ -14,11 +14,11 @@ export default function Experience() {
             <img className='w-[150px]' src={ZapOneIcon} alt="" />
             <h1 className='font-semibold text-[19px] underline text-blue'><a href="https://zapone.io/" target='blank'>ZapOne Solution Pvt.ltd</a></h1>
          </div>
-         <h1 className='text-[15px] font-normal ml-2 my-6 '><span className='font-bold text-[19px]'>InterShip</span> (Oct23-Jan24)</h1>
+         <h1 className='text-[15px] font-normal ml-2 my-6 '><span className='font-bold text-[19px]'>InterShip</span></h1>
 
          <h1 className='mt-[17px] '>• <span className='font-semibold'>ZapOne</span> - A Hub of smart tech solutions to enable better outcomes.Its range of service offerings is built focusing on the long-term digital transformation of business.</h1>
          
-         <h1 className='text-[17px] mt-[17px] font-semibold '>• Worked as a Front-End Developer <span className='font-normal'>(HTML , CSS , Tailwind Css , Javascript , ReactJs)</span></h1>
+         <h1 className='text-[17px] mt-[17px] font-semibold '>• From (May-2023) I continue our work as a Front-End Developer in this Organization. <span className='font-normal'>(HTML , CSS , Tailwind Css , Javascript , ReactJs)</span></h1>
          
       </div>
 

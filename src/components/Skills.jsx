@@ -7,6 +7,8 @@ import { SiTailwindcss } from "react-icons/si";
 import { IoLogoFirebase } from "react-icons/io5";
 import { FaGithub } from "react-icons/fa";
 import { FaBootstrap } from "react-icons/fa";
+import { SiMongodb } from "react-icons/si";
+import { FaNode } from "react-icons/fa";
 import bg5 from "../Assets/img/bg5.jpg";
 
 
@@ -32,6 +34,13 @@ export default function Skills() {
           <h1>CSS</h1>
         </div>
 
+        <div className='flex items-center   bg-slate-200 py-[10px] px-[20px] m-2 border font-bold border-black rounded  hover:bg-sky-950  duration-500  hover:text-white cursor-pointer gap-4 md:w-[160px] w-[120px] flex-col text-center'>
+          <div className='text-5xl'>
+          <SiTailwindcss  />
+          </div>
+          <h1>Tailwind Css</h1>
+        </div>
+
         <div className='flex items-center   bg-slate-200 py-[10px] px-[20px] m-2 border font-bold border-black rounded  hover:bg-sky-950  duration-500  hover:text-white cursor-pointer gap-4 md:w-[160px] w-[120px] flex-col '>
           <div className='text-5xl'>
           <IoLogoJavascript />
@@ -48,9 +57,16 @@ export default function Skills() {
 
         <div className='flex items-center   bg-slate-200 py-[10px] px-[20px] m-2 border font-bold border-black rounded  hover:bg-sky-950  duration-500  hover:text-white cursor-pointer gap-4 md:w-[160px] w-[120px] flex-col text-center'>
           <div className='text-5xl'>
-          <SiTailwindcss  />
+          <FaNode />
           </div>
-          <h1>Tailwind Css</h1>
+          <h1>NodeJS</h1>
+        </div>
+
+        <div className='flex items-center   bg-slate-200 py-[10px] px-[20px] m-2 border font-bold border-black rounded  hover:bg-sky-950  duration-500  hover:text-white cursor-pointer gap-4 md:w-[160px] w-[120px] flex-col text-center'>
+          <div className='text-5xl'>
+          <SiMongodb />
+          </div>
+          <h1>MongoDB</h1>
         </div>
 
         <div className='flex items-center   bg-slate-200 py-[10px] px-[20px] m-2 border font-bold border-black rounded  hover:bg-sky-950  duration-500  hover:text-white cursor-pointer gap-4 md:w-[160px] w-[120px] flex-col '>

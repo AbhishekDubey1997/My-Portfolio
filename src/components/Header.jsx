@@ -38,8 +38,8 @@ export default function Header() {
             {/* Responsive menu */}
 
             
-                <ul className={`duration-200 md:hidden  fixed w-full h-screen left-0 flex  items-center justify-start pt-[90px] flex-col gap-6 font-medium text-2xl bg-sky-800 text-white   
-                 ${toggle ? 'top-[64px]' : 'top-[-100%]'} `} >
+                <ul className={`duration-1000 md:hidden  fixed w-full h-screen left-0 flex  items-center justify-start pt-[90px] flex-col gap-6 font-medium text-2xl bg-sky-800 text-white   
+                 ${toggle ? 'top-[64px]' : 'top-[-400%]'} `} >
 
                     <li><Link to="/"  onClick={()=>setToggle(!toggle)} >Home</Link></li>
                     <li><Link to="/About"  onClick={()=>setToggle(!toggle)} >About</Link></li>
