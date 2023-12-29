@@ -39,7 +39,7 @@ export default function Header() {
 
             
                 <ul className={`duration-1000 md:hidden  fixed w-full h-screen left-0 flex  items-center justify-start pt-[90px] flex-col gap-6 font-medium text-2xl bg-sky-800 text-white   
-                 ${toggle ? 'top-[64px]' : 'top-[-400%]'} `} >
+                 ${toggle ? 'top-[64px]' : 'top-[-200%]'} `} >
 
                     <li><Link to="/"  onClick={()=>setToggle(!toggle)} >Home</Link></li>
                     <li><Link to="/About"  onClick={()=>setToggle(!toggle)} >About</Link></li>
